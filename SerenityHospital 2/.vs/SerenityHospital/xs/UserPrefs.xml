@@ -1,0 +1,42 @@
+﻿<Properties StartupConfiguration="{E4CCBA39-21FC-4B25-879D-5C57141EA034}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="SerenityHospital.Business/Services/Implements/AppoinmentService.cs">
+    <Files>
+      <File FileName="SerenityHospital.Business/Services/Implements/AppoinmentService.cs" Line="343" Column="1" />
+      <File FileName="SerenityHospital.Business/Services/Implements/RecipeService.cs" Line="95" Column="45" />
+      <File FileName="SerenityHospital.Business/Dtos/RecipeDtos/RecipeListItemDto.cs" Line="11" Column="20" />
+      <File FileName="SerenityHospital.Business/Dtos/AppoinmentDtos/AppoinmentInfoDto.cs" Line="19" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SerenityHospital" expanded="True">
+            <Node name="SerenityHospital.API" expanded="True" />
+            <Node name="SerenityHospital.Business" expanded="True">
+              <Node name="Dtos" expanded="True">
+                <Node name="AppoinmentDtos" expanded="True" />
+                <Node name="DoctorDtos" expanded="True" />
+                <Node name="RecipeDtos" expanded="True" />
+              </Node>
+              <Node name="Exceptions" expanded="True">
+                <Node name="Appoinments" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True">
+                <Node name="Implements" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="SerenityHospital.Core" expanded="True">
+              <Node name="Enums" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.SerenityHospital.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

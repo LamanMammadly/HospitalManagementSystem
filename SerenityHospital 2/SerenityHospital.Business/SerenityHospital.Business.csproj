@@ -1,0 +1,112 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SerenityHospital.DAL\SerenityHospital.DAL.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Dtos\" />
+    <None Remove="Dtos\HospitalDtos\" />
+    <None Remove="Services\" />
+    <None Remove="Services\Interfaces\" />
+    <None Remove="Services\Implements\" />
+    <None Remove="Exceptions\" />
+    <None Remove="Exceptions\Common\" />
+    <None Remove="Exceptions\HospitalExceptions\" />
+    <None Remove="ExternalServices\" />
+    <None Remove="ExternalServices\Implements\" />
+    <None Remove="ExternalServices\Interfaces\" />
+    <None Remove="Constants\" />
+    <None Remove="Exceptions\Images\" />
+    <None Remove="Extensions\" />
+    <None Remove="Validators\" />
+    <None Remove="Dtos\SettingDtos\" />
+    <None Remove="Exceptions\Settings\" />
+    <None Remove="Dtos\ServiceDtos\" />
+    <None Remove="Exceptions\Services\" />
+    <None Remove="Dtos\DepartmentDtos\" />
+    <None Remove="Exceptions\Departments\" />
+    <None Remove="Dtos\PositionDtos\" />
+    <None Remove="Dtos\PatientRoomDtos\" />
+    <None Remove="Exceptions\PatientRooms\" />
+    <None Remove="Dtos\AdminstratorDtos\" />
+    <None Remove="Dtos\TokenDtos\" />
+    <None Remove="Dtos\RoleDtos\" />
+    <None Remove="Exceptions\Roles\" />
+    <None Remove="Exceptions\Tokens\" />
+    <None Remove="Dtos\DoctorDtos\" />
+    <None Remove="Exceptions\Positions\" />
+    <None Remove="Dtos\PatientDtos\" />
+    <None Remove="Exceptions\Patients\" />
+    <None Remove="Dtos\NurseDtos\" />
+    <None Remove="Dtos\DoctorRoom\" />
+    <None Remove="Exceptions\Doctors\" />
+    <None Remove="Dtos\AppoinmentDtos\" />
+    <None Remove="Exceptions\Appoinments\" />
+    <None Remove="Dtos\RecipeDtos\" />
+    <None Remove="Exceptions\Recipes\" />
+    <None Remove="Dtos\PatientHistoryDtos\" />
+    <None Remove="Exceptions\Confirms\" />
+    <None Remove="Dtos\AdminDtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dtos\" />
+    <Folder Include="Dtos\HospitalDtos\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Interfaces\" />
+    <Folder Include="Services\Implements\" />
+    <Folder Include="Exceptions\" />
+    <Folder Include="Exceptions\Common\" />
+    <Folder Include="Exceptions\HospitalExceptions\" />
+    <Folder Include="ExternalServices\" />
+    <Folder Include="ExternalServices\Implements\" />
+    <Folder Include="ExternalServices\Interfaces\" />
+    <Folder Include="Constants\" />
+    <Folder Include="Exceptions\Images\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Validators\" />
+    <Folder Include="Dtos\SettingDtos\" />
+    <Folder Include="Exceptions\Settings\" />
+    <Folder Include="Dtos\ServiceDtos\" />
+    <Folder Include="Exceptions\Services\" />
+    <Folder Include="Dtos\DepartmentDtos\" />
+    <Folder Include="Exceptions\Departments\" />
+    <Folder Include="Dtos\PositionDtos\" />
+    <Folder Include="Dtos\PatientRoomDtos\" />
+    <Folder Include="Exceptions\PatientRooms\" />
+    <Folder Include="Dtos\AdminstratorDtos\" />
+    <Folder Include="Dtos\TokenDtos\" />
+    <Folder Include="Dtos\RoleDtos\" />
+    <Folder Include="Exceptions\Roles\" />
+    <Folder Include="Exceptions\Tokens\" />
+    <Folder Include="Dtos\DoctorDtos\" />
+    <Folder Include="Exceptions\Positions\" />
+    <Folder Include="Dtos\PatientDtos\" />
+    <Folder Include="Exceptions\Patients\" />
+    <Folder Include="Dtos\NurseDtos\" />
+    <Folder Include="Dtos\DoctorRoom\" />
+    <Folder Include="Exceptions\Doctors\" />
+    <Folder Include="Dtos\AppoinmentDtos\" />
+    <Folder Include="Exceptions\Appoinments\" />
+    <Folder Include="Dtos\RecipeDtos\" />
+    <Folder Include="Exceptions\Recipes\" />
+    <Folder Include="Dtos\PatientHistoryDtos\" />
+    <Folder Include="Exceptions\Confirms\" />
+    <Folder Include="Dtos\AdminDtos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.7.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Stripe.net" Version="42.9.0" />
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.2.0" />
+  </ItemGroup>
+</Project>
